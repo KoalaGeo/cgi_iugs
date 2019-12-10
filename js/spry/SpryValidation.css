@@ -1,0 +1,143 @@
+@charset "UTF-8";
+.textfieldRequiredMsg, .textfieldInvalidFormatMsg, .textfieldMinValueMsg, .textfieldMaxValueMsg, .textfieldMinCharsMsg, .textfieldMaxCharsMsg, .textfieldValidMsg {
+	display: none;
+}
+.textfieldRequiredState .textfieldRequiredMsg, .textfieldInvalidFormatState .textfieldInvalidFormatMsg, .textfieldMinValueState .textfieldMinValueMsg, .textfieldMaxValueState .textfieldMaxValueMsg, .textfieldMinCharsState .textfieldMinCharsMsg, .textfieldMaxCharsState .textfieldMaxCharsMsg {
+	display: inline;
+	border: 0.1em solid #CC3333;
+	padding: 0.2em;
+	float: right;
+	width: 10em;
+	border-radius:0.4em;
+	text-align:left;
+}
+
+.textfieldValidState input, input.textfieldValidState {
+	background-color: #B8F5B1;
+}
+input.textfieldRequiredState, .textfieldRequiredState input, input.textfieldInvalidFormatState, .textfieldInvalidFormatState input, input.textfieldMinValueState, .textfieldMinValueState input, input.textfieldMaxValueState, .textfieldMaxValueState input, input.textfieldMinCharsState, .textfieldMinCharsState input, input.textfieldMaxCharsState, .textfieldMaxCharsState input {
+	background-color: #FF9F9F;
+}
+.textfieldFocusState input, input.textfieldFocusState {
+	background-color: #FFFFCC;
+}
+.textfieldFlashText input, input.textfieldFlashText {
+	color: red !important;
+}
+.textfieldHintState input, input.textfieldHintState {
+}
+/*RADIOS*/
+.radioRequiredMsg, .radioInvalidMsg {
+	display: none;
+}
+.radioRequiredState .radioRequiredMsg, .radioInvalidState .radioInvalidMsg {
+	display: inline;
+	border: 0.1em solid #CC3333;
+	padding: 0.2em;
+	float: right;
+	width: 10em;
+}
+/*CHECKBOXES*/
+.checkboxRequiredMsg, .checkboxMinSelectionsMsg, .checkboxMaxSelectionsMsg {
+	display: none;
+}
+.checkboxRequiredState .checkboxRequiredMsg, .checkboxMinSelectionsState .checkboxMinSelectionsMsg, .checkboxMaxSelectionsState .checkboxMaxSelectionsMsg {
+	display: inline;
+	border: 0.1em solid #CC3333;
+	padding: 0.2em;
+	float: right;
+	width: 10em;
+	border-radius:0.4em;
+	text-align:left;
+}
+/*SELECT GROUP*/
+
+
+.selectRequiredMsg, .selectInvalidMsg {
+	display: none;
+}
+.selectRequiredState .selectRequiredMsg, .selectInvalidState .selectInvalidMsg {
+	display: inline;
+	border: 0.1em solid #CC3333;
+	padding: 0.2em;
+	float: right;
+	width: 10em;
+}
+.selectValidState select, select.selectValidState {
+	background-color: #B8F5B1;
+}
+select.selectRequiredState, .selectRequiredState select, select.selectInvalidState, .selectInvalidState select {
+	background-color: #FF9F9F;
+}
+.selectFocusState select, select.selectFocusState {
+	background-color: #FFFFCC;
+}
+/*TEXTAREA*/
+.textareaRequiredMsg, .textareaMinCharsMsg, .textareaMaxCharsMsg, .textareaValidMsg {
+	display: none;
+}
+.textareaRequiredState .textareaRequiredMsg, .textareaMinCharsState .textareaMinCharsMsg, .textareaMaxCharsState .textareaMaxCharsMsg {
+	display: inline;
+	border: 0.1em solid #CC3333;
+	padding: 0.2em;
+	float: right;
+	width: 10em;
+}
+.textareaValidState textarea, textarea.textareaValidState {
+	background-color: #B8F5B1;
+}
+textarea.textareaRequiredState, .textareaRequiredState textarea, textarea.textareaMinCharsState, .textareaMinCharsState textarea, textarea.textareaMaxCharsState, .textareaMaxCharsState textarea {
+	background-color: #FF9F9F;
+}
+.textareaFocusState textarea, textarea.textareaFocusState {
+	background-color: #FFFFCC;
+}
+.textareaFlashState textarea, textarea.textareaFlashState {
+	color: red !important;
+}
+textarea.textareaHintState, .textareaHintState textarea {
+/* color: red !important;*/
+}
+/*DIV FORMATTING*/
+textarea, select, input {
+	float: left;
+	margin: 0.5em;
+	width: 40%;
+	padding: 0.4em;
+	box-shadow: 0.2em 0.2em 0.2em #888888;
+	border: solid 0.1em #888888;
+	border-radius: 0.4em;
+	margin: 0.5em;
+}
+input[type=submit], input[type=reset] {
+	width: 20%;
+}
+input[type=checkbox] {
+	width: auto;
+}
+.formLabel {
+	margin: 0.5em;
+	float: left;
+	width: 30%;
+	background-color: #ffff99;
+	padding: 0.5em;
+	border-radius: 0.2em;
+}
+.formLabel.long {
+	width: 70%;
+}
+.inputLabel {
+	clear: both;
+}
+.radioButtons {
+	float: left;
+}
+.rightColumn {
+	margin-left: 0;
+}
+.rightColumn input {
+	width: 83.5%;
+}
+.checkboxRequiredState .formLabel, .checkboxMaxSelectionsState .formLabel, .selectRequiredState .formLabel, .selectInvalidState .formLabel, .textareaRequiredState .formLabel, .textareaMinCharsState .formLabel, .textareaMaxCharsState .formLabel, .textfieldRequiredState .formLabel, .textfieldInvalidFormatState .formLabel, .textfieldMinValueState .formLabel, .textfieldMaxValueState .formLabel, .textfieldMinCharsState .formLabel, .textfieldMaxCharsState .formLabel, .radioRequiredState .formLabel {
+	color: #CC3333;
+}

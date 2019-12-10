@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+.SlidingPanels{
+	position: relative;
+	width: 800px;
+	height: 500px;
+	padding: 0px;
+	border: none;
+	float: left;
+	}
+
+.SlidingPanelsContentGroup{
+	position: relative;
+	width: 10000px;
+	border: none;
+	float: left;
+	}
+
+.SlidingPanelsContent{
+	float: left;
+	width: 800px;
+	height: 500px;
+	overflow: auto;
+	border: none;
+	background-image: url(../images/widesky3.jpg);
+	}
+
+.SlidingPanelsAnimating * {
+	overflow: hidden !important;
+	}
+.SlidingPanelsCurrentPanel {
+	}
+
+.SlidingPanelsFocused {
+	}
+.panelContent{
+	padding:2px;
+	text-align:left;
+	}
+

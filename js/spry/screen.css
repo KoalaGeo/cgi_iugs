@@ -1,0 +1,169 @@
+@charset "UTF-8";
+/*
+-----------------------------------------------
+Spry Demos CSS Rules
+Version:  12 Apr 2006 (0.2b)
+----------------------------------------------- */
+body {
+	voice-family: "\"}\"";
+	voice-family: inherit;
+}
+/* Links
+----------------------------------------------- */
+a img {
+	border-style: none;
+}
+/* Layout Rules
+----------------------------------------------- */
+#wrap {
+	padding-top: 0px;
+	margin: 0 0px;
+	text-align: center;
+	width: auto;
+}
+.SpryHiddenRegion {
+	visibility: hidden;
+}
+/* Gallery and Playback Controls
+----------------------------------------------- */
+#gallerySelect {
+	width: 180px;
+}
+#controls {
+	margin:0 auto 0px auto;
+}
+#galleries {
+	margin:0 auto 0px auto;
+}
+#galleries label {
+	padding-bottom: 2px;
+}
+#galleryLinks a {
+	color: white;
+	text-decoration: none;
+}
+#transport {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#transport li {
+	float: left;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+#transport a {
+	text-decoration: none;
+	font-size: 90%;
+	font-weight: bold;
+	margin: 0 1px 0 0;
+	padding: 4px 8px;
+	width: 52px;
+	float: left;
+	display: block;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+}
+#transport a:link {
+	background: #7399C6 url('bg_grad_gray1.gif') repeat-x;
+	color: #FFFFFF;
+	border:1px outset #7399C6;
+}
+#transport a:visited {
+	background: #7399C6 url('bg_grad_gray1.gif') repeat-x;
+	color: #FFFFFF;
+	border:1px outset #7399C6;
+}
+#transport a:hover {
+	background: #7399C6 url('bg_grad_gray2.gif') repeat-x;
+	color: #000066;
+	border:1px outset #7399C6;
+}
+#transport a:focus {
+	-moz-user-select: none;
+	-khtml-user-select: none;
+}
+#transport .playBtn .pauseLabel, #transport .pauseBtn .playLabel {
+	display: none;
+}
+#previews {
+	padding: 2px;
+	margin-bottom: 0px;
+	width: 230px;
+	float: left;
+	margin-right: 0px;
+}
+#thumbnails {
+	clear: both;
+	margin: 0px auto;
+}
+#thumbnails div {
+	position: relative;
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin: 6px;
+	padding: 0px;
+	display:block;
+}
+#thumbnails img {
+	width: 40px;
+	height: 40px;
+	border:3px outset #7399C6;
+	margin:0px;
+}
+#picture {
+	padding: 0px;
+	width: 500px;
+	float: left;
+	overflow:visible;
+}
+#mainImageOutline {
+	margin: 0 auto;
+	padding: 0;
+	background-color: #7399C6;
+	border: 3px inset #7399C6;
+	padding: 0px;
+	padding-bottom:32px;
+	overflow: visible;
+	width: 0px;
+	height: 0px;
+}
+#mainImage {
+	width: 100%;
+	height: 100%;
+}
+#imgTitle {
+	width: 100%;
+	color:#FFFFFF;
+	font-size:80%;
+	text-align:center;
+	padding:2px;
+	overflow: visible;
+}
+#picture img {
+}
+.selectedThumbnail {
+	border: 3px outset #CC0000 !important;
+}
+.inFocus {
+	border: 3px outset #FFFF00 !important;
+}
+/* Utility IDs, classes, and HTML selectors
+----------------------------------------------- */
+
+/*.clear {
+	visibility: hidden;
+	display: block;
+	clear: both;
+	height: 0px;
+	margin: 0;
+	padding: 0;
+}*/
+.ClearAll {
+	clear: both;
+	height: 0;
+	font-size: 0;
+	line-height: 0;
+}
